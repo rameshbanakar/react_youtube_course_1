@@ -1,9 +1,10 @@
 import React from 'react'
 import "./App.css"
+import FuncComp from './Components/FuncComp'
 const App = () => {
   return (
     <div>
-      <h1 className='App'>Hello world</h1>
+     <FuncComp/>
     </div>
   )
 }
