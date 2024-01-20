@@ -1,10 +1,12 @@
 import React from 'react'
 import "./App.css"
 import FuncComp from './Components/FuncComp'
+import {ArrowComp} from "./Components/ArrowComp"
 const App = () => {
   return (
     <div>
-     <FuncComp/>
+     {/* <FuncComp/> */}
+     <ArrowComp/>
     </div>
   )
 }
