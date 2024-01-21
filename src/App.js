@@ -6,6 +6,7 @@ import ClassComp from './Components/ClassComp'
 import Jsx from "./Components/jsx"
 import Props from "./Components/Props"
 import PropsClassComp from './Components/PropsClassComp'
+import StateFuncComp from './Components/StateFuncComp'
 const App = () => {
   return (
     <div>
@@ -16,7 +17,8 @@ const App = () => {
      {/* <Props name="ramesh">
       <p>this is childern tag</p>
      </Props> */}
-     <PropsClassComp name="ramesh"/>
+     {/* <PropsClassComp name="ramesh"/> */}
+     <StateFuncComp/>
     </div>
   );
 }
