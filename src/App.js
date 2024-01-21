@@ -8,6 +8,9 @@ import Props from "./Components/Props"
 import PropsClassComp from './Components/PropsClassComp'
 import StateFuncComp from './Components/StateFuncComp'
 import StateClassComp from './Components/StateClassComp'
+import DestructureProps from './Components/DestructureProps'
+import EventHandlingFunc from "./Components/EventHandlingFunc"
+import EventHandlingClass from './Components/EventHandlingClass'
 const App = () => {
   return (
     <div>
@@ -20,7 +23,10 @@ const App = () => {
      </Props> */}
      {/* <PropsClassComp name="ramesh"/> */}
      {/* <StateFuncComp/> */}
-     <StateClassComp/>
+     {/* <StateClassComp/> */}
+      {/* <DestructureProps name="Ramesh"/> */}
+      {/* <EventHandlingFunc/> */}
+      <EventHandlingClass/>
     </div>
   );
 }
