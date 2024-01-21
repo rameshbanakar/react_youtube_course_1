@@ -12,6 +12,7 @@ import DestructureProps from './Components/DestructureProps'
 import EventHandlingFunc from "./Components/EventHandlingFunc"
 import EventHandlingClass from './Components/EventHandlingClass'
 import EventBinding from './Components/EventBinding'
+import ConditionalRendering from './Components/ConditionalRendering'
 const App = () => {
   return (
     <div>
@@ -28,7 +29,8 @@ const App = () => {
       {/* <DestructureProps name="Ramesh"/> */}
       {/* <EventHandlingFunc/> */}
       {/* <EventHandlingClass/> */}
-      <EventBinding/>
+      {/* <EventBinding/> */}
+      <ConditionalRendering/>
     </div>
   );
 }
