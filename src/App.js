@@ -11,6 +11,7 @@ import StateClassComp from './Components/StateClassComp'
 import DestructureProps from './Components/DestructureProps'
 import EventHandlingFunc from "./Components/EventHandlingFunc"
 import EventHandlingClass from './Components/EventHandlingClass'
+import EventBinding from './Components/EventBinding'
 const App = () => {
   return (
     <div>
@@ -26,7 +27,8 @@ const App = () => {
      {/* <StateClassComp/> */}
       {/* <DestructureProps name="Ramesh"/> */}
       {/* <EventHandlingFunc/> */}
-      <EventHandlingClass/>
+      {/* <EventHandlingClass/> */}
+      <EventBinding/>
     </div>
   );
 }
